@@ -1,0 +1,63 @@
+.ft{
+  background-color: #3B3B3B;
+}
+
+.text_white{
+  color: white;
+}
+
+.red{
+  background-color: #ed564b;
+}
+
+.preft{
+  background: #292929;
+}
+
+.navtext:link {
+    text-decoration: none;
+    color: red;
+}
+
+.navtext:visited {
+    text-decoration: none;
+}
+
+.navtext:hover {
+    text-decoration: underline;
+}
+
+.navtext:active {
+    text-decoration: underline;
+}
+
+.carousel-item img{
+  filter:grayscale() brightness(50%);
+}
+
+
+.carousel-control-prev{
+  top: 40%;
+  bottom: 40%;
+  background-color: #ed564b;
+  width: 5%;
+}
+
+.carousel-control-next{
+  top: 40%;
+  bottom: 40%;
+  background-color: #ed564b;
+  width: 5%;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.carousel-caption{
+  bottom: 50%;
+  transform:translateY(50%)
+}
